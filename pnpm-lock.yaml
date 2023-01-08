@@ -11,6 +11,7 @@ specifiers:
   '@testing-library/user-event': ^13.5.0
   dotenv: ^16.0.3
   formik: ^2.2.9
+  is-ci: ^3.0.1
   react: ^18.2.0
   react-dom: ^18.2.0
   react-lazy-load: ^4.0.1
@@ -33,6 +34,7 @@ dependencies:
   '@testing-library/user-event': 13.5.0
   dotenv: 16.0.3
   formik: 2.2.9_react@18.2.0
+  is-ci: 3.0.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-lazy-load: 4.0.1_biqbaboplfbrettd7655fr4n2y
@@ -6019,6 +6021,13 @@ packages:
   /is-callable/1.2.7:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
     engines: {node: '>= 0.4'}
+    dev: false
+
+  /is-ci/3.0.1:
+    resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==}
+    hasBin: true
+    dependencies:
+      ci-info: 3.5.0
     dev: false
 
   /is-core-module/2.11.0:
